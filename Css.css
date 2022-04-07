@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none ;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr ;
+    justify-content: center;
+    align-content: center;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    grid-row-start: 2 ;
+    grid-row-end: 2;  
+}
+
+.Logo-Kısmı {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;        
+}
+.Arama-Kısmı input {
+    width: 35%;
+    height: 28px;
+}
+.Arama-Kısmı button {
+     width: 150px;
+    height: 28px;
+}
+
+.Arama-Kısmı {
+    background-color: rgb(169, 168, 168);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Button-Grup {
+    background-color: rgb(169, 168, 168);
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 305px;
+    padding: 1px 0 20px 0;
+}
+
+.Alt-Kısım {
+    background-color:rgba(255, 255, 255, 0.455) ;
+    display: flex;
+    justify-content: center;
+}
+
+.Sol-Alt {
+    background-color: rgb(218, 127, 127);
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    align-items: center;
+}
+ .Orta-Alt {
+     background-color: rgb(190, 73, 73);
+     display: flex;
+    justify-content: center;
+    width: 200px;
+    align-items: center;
+ }
+
+ .Sag-Alt {
+     background-color: rgb(152, 30, 30);
+     display: flex;
+    justify-content: center;
+    width: 350px;
+    padding: 20px;
+    align-items: center;
+ }
+
+ .Sag-Alt button {
+     height: 28px;
+     width: 100px;
+ }
+
+ .Sag-Alt input {
+     height: 28px;
+     width: 200px ;
+ }
+
+ .Copy {
+     background-color: rgb(255, 255, 255);
+     display: flex;
+    justify-content: center;
+ }
